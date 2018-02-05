@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBB749C2028994C00C4134F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB749B2028994C00C4134F /* AppDelegate.swift */; };
+		FEBB749E2028994C00C4134F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB749D2028994C00C4134F /* ViewController.swift */; };
+		FEBB74A12028994C00C4134F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBB749F2028994C00C4134F /* Main.storyboard */; };
+		FEBB74A32028994C00C4134F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBB74A22028994C00C4134F /* Assets.xcassets */; };
+		FEBB74A62028994C00C4134F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBB74A42028994C00C4134F /* LaunchScreen.storyboard */; };
+		FEBB74B12028994C00C4134F /* BittyBot_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB74B02028994C00C4134F /* BittyBot_AppTests.swift */; };
+		FEBB74BC2028994C00C4134F /* BittyBot_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB74BB2028994C00C4134F /* BittyBot_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBB74AD2028994C00C4134F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBB74902028994C00C4134F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBB74972028994C00C4134F;
+			remoteInfo = "BittyBot App";
+		};
+		FEBB74B82028994C00C4134F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBB74902028994C00C4134F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBB74972028994C00C4134F;
+			remoteInfo = "BittyBot App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBB74982028994C00C4134F /* BittyBot App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BittyBot App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBB749B2028994C00C4134F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEBB749D2028994C00C4134F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEBB74A02028994C00C4134F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBB74A22028994C00C4134F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBB74A52028994C00C4134F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBB74A72028994C00C4134F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBB74AC2028994C00C4134F /* BittyBot AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BittyBot AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBB74B02028994C00C4134F /* BittyBot_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BittyBot_AppTests.swift; sourceTree = "<group>"; };
+		FEBB74B22028994C00C4134F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBB74B72028994C00C4134F /* BittyBot AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BittyBot AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBB74BB2028994C00C4134F /* BittyBot_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BittyBot_AppUITests.swift; sourceTree = "<group>"; };
+		FEBB74BD2028994C00C4134F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBB74952028994C00C4134F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74A92028994C00C4134F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74B42028994C00C4134F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBB748F2028994C00C4134F = {
+			isa = PBXGroup;
+			children = (
+				FEBB749A2028994C00C4134F /* BittyBot App */,
+				FEBB74AF2028994C00C4134F /* BittyBot AppTests */,
+				FEBB74BA2028994C00C4134F /* BittyBot AppUITests */,
+				FEBB74992028994C00C4134F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBB74992028994C00C4134F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB74982028994C00C4134F /* BittyBot App.app */,
+				FEBB74AC2028994C00C4134F /* BittyBot AppTests.xctest */,
+				FEBB74B72028994C00C4134F /* BittyBot AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBB749A2028994C00C4134F /* BittyBot App */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB749B2028994C00C4134F /* AppDelegate.swift */,
+				FEBB749D2028994C00C4134F /* ViewController.swift */,
+				FEBB749F2028994C00C4134F /* Main.storyboard */,
+				FEBB74A22028994C00C4134F /* Assets.xcassets */,
+				FEBB74A42028994C00C4134F /* LaunchScreen.storyboard */,
+				FEBB74A72028994C00C4134F /* Info.plist */,
+			);
+			path = "BittyBot App";
+			sourceTree = "<group>";
+		};
+		FEBB74AF2028994C00C4134F /* BittyBot AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB74B02028994C00C4134F /* BittyBot_AppTests.swift */,
+				FEBB74B22028994C00C4134F /* Info.plist */,
+			);
+			path = "BittyBot AppTests";
+			sourceTree = "<group>";
+		};
+		FEBB74BA2028994C00C4134F /* BittyBot AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB74BB2028994C00C4134F /* BittyBot_AppUITests.swift */,
+				FEBB74BD2028994C00C4134F /* Info.plist */,
+			);
+			path = "BittyBot AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBB74972028994C00C4134F /* BittyBot App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBB74C02028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot App" */;
+			buildPhases = (
+				FEBB74942028994C00C4134F /* Sources */,
+				FEBB74952028994C00C4134F /* Frameworks */,
+				FEBB74962028994C00C4134F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BittyBot App";
+			productName = "BittyBot App";
+			productReference = FEBB74982028994C00C4134F /* BittyBot App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBB74AB2028994C00C4134F /* BittyBot AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBB74C32028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot AppTests" */;
+			buildPhases = (
+				FEBB74A82028994C00C4134F /* Sources */,
+				FEBB74A92028994C00C4134F /* Frameworks */,
+				FEBB74AA2028994C00C4134F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBB74AE2028994C00C4134F /* PBXTargetDependency */,
+			);
+			name = "BittyBot AppTests";
+			productName = "BittyBot AppTests";
+			productReference = FEBB74AC2028994C00C4134F /* BittyBot AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEBB74B62028994C00C4134F /* BittyBot AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBB74C62028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot AppUITests" */;
+			buildPhases = (
+				FEBB74B32028994C00C4134F /* Sources */,
+				FEBB74B42028994C00C4134F /* Frameworks */,
+				FEBB74B52028994C00C4134F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBB74B92028994C00C4134F /* PBXTargetDependency */,
+			);
+			name = "BittyBot AppUITests";
+			productName = "BittyBot AppUITests";
+			productReference = FEBB74B72028994C00C4134F /* BittyBot AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBB74902028994C00C4134F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bilal Zahid";
+				TargetAttributes = {
+					FEBB74972028994C00C4134F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FEBB74AB2028994C00C4134F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEBB74972028994C00C4134F;
+					};
+					FEBB74B62028994C00C4134F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEBB74972028994C00C4134F;
+					};
+				};
+			};
+			buildConfigurationList = FEBB74932028994C00C4134F /* Build configuration list for PBXProject "BittyBot App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBB748F2028994C00C4134F;
+			productRefGroup = FEBB74992028994C00C4134F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBB74972028994C00C4134F /* BittyBot App */,
+				FEBB74AB2028994C00C4134F /* BittyBot AppTests */,
+				FEBB74B62028994C00C4134F /* BittyBot AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBB74962028994C00C4134F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBB74A62028994C00C4134F /* LaunchScreen.storyboard in Resources */,
+				FEBB74A32028994C00C4134F /* Assets.xcassets in Resources */,
+				FEBB74A12028994C00C4134F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74AA2028994C00C4134F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74B52028994C00C4134F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBB74942028994C00C4134F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBB749E2028994C00C4134F /* ViewController.swift in Sources */,
+				FEBB749C2028994C00C4134F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74A82028994C00C4134F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBB74B12028994C00C4134F /* BittyBot_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB74B32028994C00C4134F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBB74BC2028994C00C4134F /* BittyBot_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBB74AE2028994C00C4134F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBB74972028994C00C4134F /* BittyBot App */;
+			targetProxy = FEBB74AD2028994C00C4134F /* PBXContainerItemProxy */;
+		};
+		FEBB74B92028994C00C4134F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBB74972028994C00C4134F /* BittyBot App */;
+			targetProxy = FEBB74B82028994C00C4134F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEBB749F2028994C00C4134F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBB74A02028994C00C4134F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBB74A42028994C00C4134F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBB74A52028994C00C4134F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBB74BE2028994C00C4134F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEBB74BF2028994C00C4134F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBB74C12028994C00C4134F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEBB74C22028994C00C4134F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEBB74C42028994C00C4134F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BittyBot App.app/BittyBot App";
+			};
+			name = Debug;
+		};
+		FEBB74C52028994C00C4134F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BittyBot App.app/BittyBot App";
+			};
+			name = Release;
+		};
+		FEBB74C72028994C00C4134F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BittyBot App";
+			};
+			name = Debug;
+		};
+		FEBB74C82028994C00C4134F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BittyBot AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bilal-Zahid.BittyBot-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BittyBot App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBB74932028994C00C4134F /* Build configuration list for PBXProject "BittyBot App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBB74BE2028994C00C4134F /* Debug */,
+				FEBB74BF2028994C00C4134F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBB74C02028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBB74C12028994C00C4134F /* Debug */,
+				FEBB74C22028994C00C4134F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBB74C32028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBB74C42028994C00C4134F /* Debug */,
+				FEBB74C52028994C00C4134F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBB74C62028994C00C4134F /* Build configuration list for PBXNativeTarget "BittyBot AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBB74C72028994C00C4134F /* Debug */,
+				FEBB74C82028994C00C4134F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBB74902028994C00C4134F /* Project object */;
+}
