@@ -31,14 +31,16 @@ class ViewController: UIViewController {
                 let string = String(substring)
                 HTMLArr[HTMLArr.count-1] = String(string)
             }
-            var i = 0
             for coin in HTMLArr{
                 if coin != "" {
                 tokens.append(token(tokenCode: coin))
                 }
-                i = i + 1
+            }
+            for tokens in tokens{
+                print(tokens.getTokenName())
             }
             
+            print(HTMLArr[1])
         } catch let error {
             labelName.text = "Error: \(error)"
         }
