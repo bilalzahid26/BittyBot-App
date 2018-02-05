@@ -40,7 +40,6 @@ class ViewController: UIViewController {
                 print(tokens.getTokenName())
             }
             
-            print(HTMLArr[1])
         } catch let error {
             labelName.text = "Error: \(error)"
         }
@@ -50,8 +49,10 @@ class ViewController: UIViewController {
 class token {
     var tokenName: String
     init(tokenCode: String) {
-
-        tokenName = String(tokenCode.prefix(30))
+        tokenName = String(tokenCode.prefix(50))
+        tokenName = tokenName.components(separatedBy: "=\"id-")[1]
+        tokenName = tokenName.components(separatedBy: "\"  class")[0]
+        
     }
     func getTokenName() -> String {
         return tokenName
